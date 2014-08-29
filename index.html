@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Wat</title>
+    <style>
+      #canvas {
+        position:absolute;
+      }
+      #points {
+        position:relative;
+      }
+      .point {
+        position:absolute;
+        width:30px;
+        height:30px;
+        border-radius:15px;
+        background:#666;
+      }
+      .point0 { background:#f00; }
+      .point1 { background:#0f0; }
+      .point2 { background:#00f; }
+      .point3 { background:#0ff; }
+      .point4 { background:#f0f; }
+    </style>
+  </head>
+  <body>
+    <canvas id="canvas" width="2000" height="2000"></canvas>
+    <div id="points"></div>
+    <script src="lib/jquery-2.1.1.min.js"></script>
+    <script src="lib/point-layout.js"></script>
+    <script src="js/demo.js"></script>
+  </body>
+</html>
